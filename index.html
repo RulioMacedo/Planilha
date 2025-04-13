@@ -30,24 +30,24 @@
             <thead>
                 <tr>
                     <th></th>
-                    <th>Janeiro</th>
-                    <th>Fevereiro</th>
-                    <th>Março</th> 
-                    <th>Abril</th>
-                    <th>Maio</th>
-                    <th>Junho</th>
-                    <th>Julho</th>
-                    <th>Agosto</th>
-                    <th>Setembro</th>
-                    <th>Outubro</th>
-                    <th>Novembro</th>
-                    <th>Dezembro</th>
-                    <th><strong>Total</strong></th>
+                    <th scope="col">Janeiro</th>
+                    <th scope="col">Fevereiro</th>
+                    <th scope="col">Março</th> 
+                    <th scope="col">Abril</th>
+                    <th scope="col">Maio</th>
+                    <th scope="col">Junho</th>
+                    <th scope="col">Julho</th>
+                    <th scope="col">Agosto</th>
+                    <th scope="col">Setembro</th>
+                    <th scope="col">Outubro</th>
+                    <th scope="col">Novembro</th>
+                    <th scope="col">Dezembro</th>
+                    <th scope="col"><strong>Total</strong></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <th class="descript">Alimentação</th>
+                    <th class="descript" scope="row">Alimentação</th>
                     <td>R$ 1.789,00</td>
                     <td>R$ 1.914,00</td>
                     <td>R$ 1.774,00</td>
@@ -63,7 +63,7 @@
                     <td>R$ 14.977,00</td>
                 </tr>
                 <tr>
-                    <th class="descript">Aluguel</th>
+                    <th class="descript" scope="row">Aluguel</th>
                     <td>R$ 600,00</td>
                     <td>R$ 600,00</td>
                     <td>R$ 600,00</td>
@@ -79,7 +79,7 @@
                     <td>R$ 7.200,00</td>
                 </tr>
                 <tr>
-                    <th class="descript">Energia</th>
+                    <th class="descript" scope="row">Energia</th>
                     <td>R$ 400,00</td>
                     <td>R$ 400,00</td>
                     <td>R$ 400,00</td>
@@ -95,7 +95,7 @@
                     <td>R$ 4.800,00</td>
                 </tr>
                 <tr>
-                    <th class="descript">Agua</th>
+                    <th class="descript" scope="row">Agua</th>
                     <td>R$ 140,00</td>
                     <td>R$ 140,00</td>
                     <td>R$ 140,00</td>
@@ -111,7 +111,7 @@
                     <td>R$ 1.680,00</td>
                 </tr>
                 <tr>
-                    <th class="descript">Internet</th>
+                    <th class="descript" scope="row">Internet</th>
                     <td>R$ 120,00</td>
                     <td>R$ 120,00</td>
                     <td>R$ 120,00</td>
@@ -127,7 +127,7 @@
                     <td>R$ 1.440,00</td>
                 </tr>
                 <tr>
-                    <th class="descript">Pensão</th>
+                    <th class="descript" scope="row">Pensão</th>
                     <td>R$ 800,00</td>
                     <td>R$ 800,00</td>
                     <td>R$ 800,00</td>
@@ -143,7 +143,7 @@
                     <td>R$ 9.600,00</td>
                 </tr>
                 <tr>
-                    <th class="descript">Investimentos</th>
+                    <th class="descript" scope="row">Investimentos</th>
                     <td>R$ 400,00</td>
                     <td>R$ 400,00</td>
                     <td>R$ 400,00</td>
@@ -161,7 +161,7 @@
             </tbody>
             <tfoot>
                 <tr>
-                    <th class="descript">Total</th>
+                    <th class="descript" scope="row">Total</th>
                     <td>R$ 4.249,00</td>
                     <td>R$ 4.374,00</td>
                     <td>R$ 4.234,00</td>
@@ -178,6 +178,10 @@
             </tfoot>
         </table>
     </main>
+    <section>
+        <p>Posso usar colspan para mesclar 2 celulas laterais!</p>
+        <p row>Tambem posso mesclar na vertical com o rowspan assim < td rowspan="2" ></p>
+    </section>
     
 </body>
 </html>

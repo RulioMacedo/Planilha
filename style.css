@@ -65,9 +65,9 @@ tbody > tr:nth-child(2n) {
     background-color: var(--cor3);
 }
 
-table, td, th {
-    width: 2000px;    
-    height: 40px;
+table, td, th { 
+    overflow-x: auto;
+    padding: 8px 10px;
     font-family: 'arial', sans-serif;
     border: 1px solid black;
     border-collapse: collapse;

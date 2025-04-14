@@ -66,13 +66,18 @@ tbody > tr:nth-child(2n) {
 }
 
 table, td, th { 
-    overflow-x: auto;
     padding: 8px 10px;
     font-family: 'arial', sans-serif;
     border: 1px solid black;
     border-collapse: collapse;
     position: relative;
 }
+
+div#tabelaresp {
+    width: 100%;
+    overflow-x: auto;
+}
+
 
 thead, tfoot {
     background-color: var(--cor2);
